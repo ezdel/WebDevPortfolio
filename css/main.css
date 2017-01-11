@@ -180,9 +180,9 @@ body {
 
 .overlay-3 {
 	padding: 60px 0;
-	/* background-color: rgba(9, 20, 39, 0.83); */
-	/* background-color: rgba(24, 77, 77, 0.93); */
-	background-color: rgba(33, 103, 88, 0.9);
+	background-color: rgba(9, 20, 39, 0.75); 
+	/*background-color: rgba(24, 77, 77, 0.93); */
+	/*background-color: rgba(33, 103, 88, 0.9);*/
 }
 
 .overlay {
@@ -406,83 +406,8 @@ body {
 	font-size: 22px;
 }
 
-/* ///////////////////////////////////////////////////////////////////// 
-//  07 - More About Me 
-/////////////////////////////////////////////////////////////////////*/
-
-/* #services {
-	background: url(../img/bg/bg-2.jpg) no-repeat center center fixed;
-	background-size: cover;
-	color: #fff;
-}
-
-.pro-stat {
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	font-style: italic;
-}
-
-.proj-name {
-	font-family: Pacifico;
-	font-size: 150px;
-	text-align: center;
-	line-height: 90%;
-	margin-bottom: 80px;
-} */
-#services .block-heading h1 {
-    color: #fff;
-	
-    /*font-family: 'Milonga', cursive;*/
-    font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	
-    font-size: 55px;
-	word-spacing: 5px;
-}
-
-
 /* ============================  animated  numbers   ==================================*/
 
-.parallax{
-    width: 100%;
-    color: #fff;
-    text-align: center;
-}
-
-#numbers
-{
-	background: url(../img/bg/number1.gif) repeat center center fixed;
-}
-#numbers .overlay{
-    padding: 60px 0px 80px 0px;
-}
-ul.numbersList {
-    margin: 0px auto;
-    padding: 0px;
-    overflow: hidden;
-    list-style: none;
-    text-align: center;
-}
-ul.numbersList li{
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-}
-ul.numbersList li:last-child{
-    border: none;
-}
-ul.numbersList h4{
-    color: rgb(234, 234, 234);
-    margin-bottom: 58px;
-}
-ul.numbersList span{
-    font-size: 62px;
-    font-weight: 700;
-}
-
-.numbers-title {
-    padding: 10px 0;
-    position: relative;
-}
 
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -544,11 +469,11 @@ ul.numbersList span{
 /////////////////////////////////////////////////////////////////////*/
 
 #contact {
-	background: url(../img/bg/contact-bg.jpg) no-repeat center center fixed;
+	background: url(../img/bg/bigdata.jpg) no-repeat center center fixed;
 	background-size: cover;
 	/*color: #fff;*/
 	color: #0EECFF;
-	background-color: #0EECFF;
+	background-color: none;
 }
 
 #contact .block-heading h1
@@ -659,6 +584,18 @@ input[type="submit"]:hover {
 #bio-head {
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
+}
+
+#reel {
+	text-decoration: none;
+}
+
+#reel:link, #reel:visited{
+	color: #00ABD1;
+}
+
+#reel:hover {
+	color: #808EA8;
 }
 
 .ital {
